@@ -79,7 +79,7 @@ def main():
 
     args = parser.parse_args()
 
-
+    #if user only inputs >>>ask
     if len(sys.argv) == 1:
         parser.print_help(sys.stderr)
         exit()
@@ -88,7 +88,6 @@ def main():
         history_manager.clear()
         print("Asker history cleared.")
         exit()
-
 
     try:
         config = config_manager.load_config()  
@@ -103,7 +102,7 @@ def main():
         print(f"Asker model set to: {args.model}")
         exit()
 
-    question = ' '.join(args.question)
+    question = ''.join(args.question)
     history = history_manager.get(5)
     run_commands(question, history)
 
