@@ -1,9 +1,10 @@
 .venv
 config.ini
-/build
-*.egg-info
+build/
+*/.egg-info
 __pycache__
 dist
-.venv
+venv/
+test.py
 
 .env*
