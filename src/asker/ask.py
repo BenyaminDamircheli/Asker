@@ -73,8 +73,8 @@ def main():
         '--model',
         type=str,
         choices=['OpenAI'],
-        nargs='?',  # This allows the argument to be optional
-        const='OpenAI',  # This sets a default value if --model is used without a value
+        nargs='?',  
+        const='OpenAI',  
         help='The model to use for asking the question. For now it is just OpenAI but I may add more in the future.'
     )
 
