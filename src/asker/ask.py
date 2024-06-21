@@ -10,6 +10,7 @@ from .config import Config
 config_manager = Config()
 history_manager = History()
 
+#checks if user is asking for previous commands, runs previous commands and shows prev answer.
 def run_commands(question, history):
     if question.lower() == "prev":
         if history:
