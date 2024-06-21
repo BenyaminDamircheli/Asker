@@ -12,7 +12,6 @@ history_manager = History()
 
 def run_commands(question, history):
     if question.lower() == "prev":
-        history = history_manager.get(5)
         if history:
             print("Your Asker history:")
             prev_answer = history[-1]["Answer"]

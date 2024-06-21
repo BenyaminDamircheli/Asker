@@ -6,7 +6,7 @@ class History:
     def __init__(self):
         self.temp_dir = tempfile.gettempdir()
         self.history_file = os.path.join(self.temp_dir, "asker_history.json")
-        self.max_history_length = 5 
+        self.max_history_length = 3
 
     def add(self, question, answer):
         history_item = {"Question": question, "Answer": answer}
@@ -33,8 +33,8 @@ class History:
             return []
         try:
             with open(self.history_file, "r") as file:
-                content = file.read().strip()
-                if not content:  # File is empty
+                content = file.read().strip() #remove leading + trailing whitespace 
+                if not content:  
                     return []
                 history = json.loads(content)
             return history[-n:]
