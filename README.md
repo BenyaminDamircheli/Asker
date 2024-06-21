@@ -71,5 +71,3 @@ I also think that the next evolution of something like this is a way to get LLMs
 
 The closest thing I have found to what I described is this: https://github.com/OpenInterpreter/open-interpreter
 
-
-Asker is a simple, fast and super helpful command line tool that ensures you never have to get taken out of your workflow when you forget a command.

@@ -1,2 +1,9 @@
-venv
-.env
+.venv
+config.ini
+/build
+*.egg-info
+__pycache__
+dist
+.venv
+
+.env*
