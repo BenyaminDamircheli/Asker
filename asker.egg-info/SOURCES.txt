@@ -1,7 +1,0 @@
-README.md
-setup.py
-asker.egg-info/PKG-INFO
-asker.egg-info/SOURCES.txt
-asker.egg-info/dependency_links.txt
-asker.egg-info/entry_points.txt
-asker.egg-info/top_level.txt
