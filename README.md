@@ -67,7 +67,7 @@ Running command: ffmpeg -i input.jpg -filter:v scale=w:h=1:1 output.jpg
 - [ ] Add more model providers (you could do this yourself)
 - [ ] Add favourites - saved commands you'd want to use and can invoke, similar to running commands regularly.
 
-I also think that the next evolution of something like this is a way to get LLMs to control your computer and automate much of this stuff for you based on prompts. For example, you could ask a sytsem: "can you convert the word documents in my writing folder into pdfs?" Obviously this is very different to waht asker is, but it would be something cool to look into in the future. For now Asker is just fine.
+I also think that the next evolution of something like this is a way to get LLMs to control your computer and automate much of this stuff for you based on prompts. For example, you could ask a sytsem: "can you convert the word documents in my writing folder into pdfs?" Obviously this is very different to what asker is, but it would be something cool to look into in the future. For now Asker is just fine.
 
 The closest thing I have found to what I described is this: https://github.com/OpenInterpreter/open-interpreter
 
