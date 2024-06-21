@@ -4,7 +4,7 @@ As someone who is relatively new to programming, I always forget certain command
 
 Asker is the best way to get command related questions, straight in your terminal/command line.  
 
-Currently, you have to set this up with your own API keys, and the only model provider that is supported is OpenAI. However it is very easy to add more. Just clone this repository, and change the settings in llm.py.
+Currently, you have to set this up with your own API keys, and the only model provider that is supported is OpenAI. However it is very easy to add more. Just clone this repository, and add the new model provider clients/classes to the llm.py file, following what I have done with the OpenAI client. These should show up in the config, but you'll have to double check this.
 
 However, this means that this tool unfortunately costs money, but it is still useful and you'll only be charged a small fraction of a cent per question (depending on the model you use).
 
